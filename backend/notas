@@ -1,0 +1,29 @@
+## para instalar o nodemon
+npm install nodemon -D
+
+# -> a opcao '-D' indica que quero instalar com dependencia apenas de desenvolvimento, e nao entrar como dependencia da app.
+# :)
+
+# instalacao do knex
+$ npm install knex
+
+# utilizacao do knex para sqlite
+$ npm install sqlite3
+
+# para executar um pacote
+npx knex init
+
+### Motando o banco de dados
+## Entidades
+- ONG
+- Caso (incident)
+
+## Funcionalidades
+- login de ONG
+- logout de ONG
+- cadastrar ONG
+- cadastrar casos
+- deletar casos
+- listar casos de uma ONG
+- listar todos os casos
+- entrar em contato com a ONG
